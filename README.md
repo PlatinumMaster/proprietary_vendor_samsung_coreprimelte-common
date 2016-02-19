@@ -1,1 +1,2 @@
-# proprietary_vendor_samsung_coreprimelte-common
+# android_vendor_samsung_coreprimelte-common
+Samsung Galaxy Core Prime Common Vendor Blobs
