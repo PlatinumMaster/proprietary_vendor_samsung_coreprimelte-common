@@ -32,16 +32,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/samsung/coreprimelte-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/coreprimelte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/samsung/coreprimelte-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -170,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -244,20 +242,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/samsung/coreprimelte-common/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/lib_SamsungRec_V03010.so:system/lib/lib_SamsungRec_V03010.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
     vendor/samsung/coreprimelte-common/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
-    vendor/samsung/coreprimelte-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/coreprimelte-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so
+
